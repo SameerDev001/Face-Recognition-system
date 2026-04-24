@@ -4,7 +4,7 @@ A production-quality, beginner-friendly face recognition system built with Pytho
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 face_recognition_system/
@@ -24,7 +24,7 @@ face_recognition_system/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.8+
@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Option 1: CLI Menu (Recommended)
 
@@ -75,7 +75,7 @@ python src/recognize.py
 
 ---
 
-## 🧪 Workflow
+##  Workflow
 
 1. **Collect Data** — Point the webcam at the person. The system captures 50 cropped grayscale face images automatically. Press `q` to stop early.
 
@@ -85,7 +85,7 @@ python src/recognize.py
 
 ---
 
-## 🎮 Controls
+##  Controls
 
 | Module             | Key   | Action                  |
 |--------------------|-------|-------------------------|
@@ -95,7 +95,7 @@ python src/recognize.py
 
 ---
 
-## 📸 Example Output
+##  Example Output
 
 **Data Collection:**
 ```
@@ -125,7 +125,7 @@ Live webcam feed with:
 
 ---
 
-## 🔬 How LBPH Works
+##  How LBPH Works
 
 LBPH (Local Binary Patterns Histograms) works by:
 
@@ -139,7 +139,7 @@ LBPH (Local Binary Patterns Histograms) works by:
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 - **Lighting Sensitivity** — Performance degrades in poor or uneven lighting
 - **Pose Variation** — LBPH works best with frontal faces; side profiles may fail
@@ -150,7 +150,7 @@ LBPH (Local Binary Patterns Histograms) works by:
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - Replace LBPH with deep learning models (FaceNet, ArcFace, dlib)
 - Add face alignment preprocessing (eye detection + affine transform)
@@ -162,7 +162,7 @@ LBPH (Local Binary Patterns Histograms) works by:
 
 ---
 
-## 📋 Dependencies
+##  Dependencies
 
 | Package                | Purpose                           |
 |------------------------|-----------------------------------|
@@ -171,6 +171,6 @@ LBPH (Local Binary Patterns Histograms) works by:
 
 ---
 
-## 📝 License
+##  License
 
 This project is for educational purposes. Feel free to use and modify.
