@@ -1,0 +1,22 @@
+# Ignore dataset and models content
+dataset/*
+!dataset/README.md
+models/*
+!models/README.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# System
+.DS_Store
+Thumbs.db
