@@ -23,8 +23,3 @@ The easiest way to run the project is using the main menu:
     * Press **q** to quit data collection.
     * Press **ESC** to stop the recognition window.
     * Press **s** (during recognition) to save a picture of an "unknown" person if the system doesn't recognize them.
-
-## Important Notes
-* **Lighting**: This works best in good, even lighting. If it's too dark or there's a strong light on one side of your face, it might not work well.
-* **Accuracy**: Since this uses a simple algorithm (LBPH), it's not as powerful as modern AI face recognition used in phones, but it's great for learning how computer vision works.
-* **Faces**: Try to keep your face straight towards the camera when training for the best results.
