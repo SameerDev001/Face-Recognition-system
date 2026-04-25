@@ -162,15 +162,6 @@ LBPH (Local Binary Patterns Histograms) works by:
 
 ---
 
-##  Dependencies
-
-| Package                | Purpose                           |
-|------------------------|-----------------------------------|
-| opencv-contrib-python  | Face detection + LBPH recognizer  |
-| numpy                  | Array operations                  |
-
----
-
 ##  License
 
 This project is for educational purposes. Feel free to use and modify.
