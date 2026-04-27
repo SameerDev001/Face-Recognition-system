@@ -5,7 +5,7 @@
 PYTHON = py
 PIP = $(PYTHON) -m pip
 
-.PHONY: help install collect train run clean
+.PHONY: help install collect train run clean pipeline
 
 help:
 	@echo "Available commands:"
@@ -14,6 +14,7 @@ help:
 	@echo "  make train    - Train the LBPH recognition model"
 	@echo "  make run      - Run real-time face recognition"
 	@echo "  make clean    - Remove datasets and trained models"
+	@echo "  make pipeline - Run the full pipeline (install, collect, train, run)"
 
 install:
 	$(PIP) install -r requirements.txt
@@ -32,3 +33,5 @@ clean:
 	if exist dataset (rmdir /s /q dataset && mkdir dataset)
 	if exist models (rmdir /s /q models && mkdir models)
 	@echo "Cleanup complete."
+
+pipeline: install collect train run
